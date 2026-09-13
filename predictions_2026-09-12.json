@@ -1,0 +1,310 @@
+[
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:29.967854",
+    "location": [
+      40.28,
+      -74.81
+    ],
+    "name": "Trenton, NJ (TTN)",
+    "ensemble_percent": 0,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 15.0,
+    "profit": -14.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:30.391594",
+    "location": [
+      37.62,
+      -122.38
+    ],
+    "name": "San Francisco, CA (SFO)",
+    "ensemble_percent": 0,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 1.5,
+    "profit": -0.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:30.807208",
+    "location": [
+      47.45,
+      -122.31
+    ],
+    "name": "Seattle, WA (SEA)",
+    "ensemble_percent": 13,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 79.0,
+    "profit": -78.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:31.213576",
+    "location": [
+      29.53,
+      -98.47
+    ],
+    "name": "San Antonio, TX (SAT)",
+    "ensemble_percent": 100,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 5.0,
+    "profit": -4.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:31.622468",
+    "location": [
+      33.43,
+      -112.01
+    ],
+    "name": "Phoenix, AZ (PHX)",
+    "ensemble_percent": 100,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 0.5,
+    "profit": 0.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:32.044564",
+    "location": [
+      39.87326,
+      -75.22681
+    ],
+    "name": "Philadelphia, PA (PHL)",
+    "ensemble_percent": 0,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 16.0,
+    "profit": -15.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:32.452722",
+    "location": [
+      35.39,
+      -97.6
+    ],
+    "name": "Oklahoma City, OK (OKC)",
+    "ensemble_percent": 97,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 12.0,
+    "profit": -11.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:32.860006",
+    "location": [
+      40.77898,
+      -73.96925
+    ],
+    "name": "New York, NY (Central Park)",
+    "ensemble_percent": 0,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 11.0,
+    "profit": -10.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:33.275344",
+    "location": [
+      29.99,
+      -90.26
+    ],
+    "name": "New Orleans, LA (MSY)",
+    "ensemble_percent": 100,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 43.0,
+    "profit": -42.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:33.697200",
+    "location": [
+      44.88,
+      -93.22
+    ],
+    "name": "Minneapolis, MN (MSP)",
+    "ensemble_percent": 97,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 0.5,
+    "profit": 0.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:34.116542",
+    "location": [
+      25.78805,
+      -80.31694
+    ],
+    "name": "Miami, FL (MIA)",
+    "ensemble_percent": 100,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 71.5,
+    "profit": -70.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:34.524429",
+    "location": [
+      36.08,
+      -115.15
+    ],
+    "name": "Las Vegas, NV (LAS)",
+    "ensemble_percent": 0,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 0.5,
+    "profit": 0.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:34.932483",
+    "location": [
+      33.94,
+      -118.41
+    ],
+    "name": "Los Angeles, CA (LAX)",
+    "ensemble_percent": 0,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 0.5,
+    "profit": 0.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:35.342580",
+    "location": [
+      29.64586,
+      -95.28212
+    ],
+    "name": "Houston, TX (KHOU - Hobby)",
+    "ensemble_percent": 100,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 11.0,
+    "profit": -10.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:35.757463",
+    "location": [
+      40.69,
+      -74.17
+    ],
+    "name": "Newark, NJ (EWR)",
+    "ensemble_percent": 0,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 17.5,
+    "profit": -16.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:36.168334",
+    "location": [
+      39.84657,
+      -104.65623
+    ],
+    "name": "Denver, CO (DEN)",
+    "ensemble_percent": 83,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 6.5,
+    "profit": -5.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:36.578476",
+    "location": [
+      38.85,
+      -77.04
+    ],
+    "name": "Washington, DC (DCA)",
+    "ensemble_percent": 90,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 70.0,
+    "profit": -69.0
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:36.990232",
+    "location": [
+      32.9,
+      -97.04
+    ],
+    "name": "Dallas, TX (DFW)",
+    "ensemble_percent": 3,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 0.5,
+    "profit": 0.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:37.400635",
+    "location": [
+      41.78412,
+      -87.75514
+    ],
+    "name": "Chicago, IL (Midway)",
+    "ensemble_percent": 13,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 1.5,
+    "profit": -0.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:37.809199",
+    "location": [
+      42.36,
+      -71.01
+    ],
+    "name": "Boston, MA (BOS)",
+    "ensemble_percent": 0,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 1.5,
+    "profit": -0.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:38.240227",
+    "location": [
+      30.18311,
+      -97.67989
+    ],
+    "name": "Austin, TX (AUS)",
+    "ensemble_percent": 70,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 5.5,
+    "profit": -4.5
+  },
+  {
+    "date": "2026-09-12",
+    "time": "2026-09-12T14:16:38.658147",
+    "location": [
+      33.64,
+      -84.43
+    ],
+    "name": "Atlanta, GA (ATL)",
+    "ensemble_percent": 100,
+    "num_ensemble_members": 1,
+    "event": null,
+    "kalshi_odds": 99.5,
+    "profit": -98.5
+  }
+]
