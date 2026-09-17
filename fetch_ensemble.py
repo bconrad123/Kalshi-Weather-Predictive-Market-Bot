@@ -63,18 +63,18 @@ def get_ensemble_data(lat, long):
   member_keys = [key for key in data["daily"] if key.startswith("precipitation_sum_member")]
 
   probabilities = []
-  for i, date in enumerate(dates):
+  for i, date in enumerate(dates):#allows capability to predict more days into the future
       values = [data["daily"][mk][i] for mk in member_keys]  # values for this day across all members
       n_members = len(values)
       n_rainy_members = sum(1 for v in values if v is not None and v > 0.01)
 
       prob_precip = 100 * n_rainy_members / n_members
-      probabilities.append(round(prob_precip))
+      probabilities.append([round(prob_precip),n_members])
 
-  return probabilities
+  return probabilities#list of predictions for each day 
 
 def main() -> None:
-  get_ensemble_data()
+  print(get_ensemble_data(38.98,-77.09,))#test case of Bethesda Maryland
   return None
 
 

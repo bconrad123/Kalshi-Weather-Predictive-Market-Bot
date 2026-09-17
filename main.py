@@ -2,6 +2,7 @@ import json
 import datetime
 import fetch_ensemble
 import kalshi_client
+import logger
 
 CITY_COORDS = {
     "TTN":  {"name": "Trenton, NJ (TTN)",         "lat": 40.28, "lon": -74.81},
@@ -29,6 +30,7 @@ CITY_COORDS = {
 }
 
 
+
 def main() -> None:
     kalshi_data = kalshi_client.kalshi_data(datetime.date.today())
     records = []
@@ -39,39 +41,46 @@ def main() -> None:
         kalshi_value = kalshi_data[key]
         ensemble_value = fetch_ensemble.get_ensemble_data(lat, lon)
 
-        record = make_city_dictionary(
-            loc=[lat, lon],
-            name=city["name"],
-            ensemble_percent=ensemble_value[0],
-            number_ensemble_members=len(ensemble_value) if hasattr(ensemble_value, "__len__") else None,
-            event=None,  # unknown until the day resolves — filled in later
-            kalshi_odds=kalshi_value,
-        )
-        records.append(record)
+        record ={
+            "loc":[lat, lon],
+            "name":city["name"],
+            "city":city["name"],
+            "ensemble_percent":ensemble_value[0][0],
+            "number_ensemble_members":ensemble_value[0][1],
+            "event":None, 
+            "kalshi_odds":kalshi_value,
+            "area_code":key
+        }
 
-    filename = f"predictions_{datetime.date.today().isoformat()}.json"
-    store_data(records, filename)
+        now = datetime.datetime.now().time()
+        MORNING_CUTOFF = datetime.time(15, 0)   # artbitrary before 8am
+        NIGHT_START = datetime.time(22, 0)     # arbitrary 12, I did this because I live on eascoast and am awake around these times so I can check, probably better to do it based off when markets open and close
+
+        if now < MORNING_CUTOFF:
+            logger.log_morning_prediction(
+                record["city"],
+                record["ensemble_percent"],
+                record["kalshi_odds"], 
+                record["ensemble_percent"] - record["kalshi_odds"]#edge
+            )
+        elif now > NIGHT_START:
+            ticker = f"KXRAIN-{datetime.datetime.now().strftime('%y%b%d').upper()}-{record['area_code']}"
+            resolution = kalshi_client.check_contract_resolution(ticker)
+            if resolution["resolved"]:
+                logger.log_night_result(
+                    record["city"],
+                    actual_outcome=resolution["outcome"],
+                    settledprice=resolution["settled_price"]
+                )
+            else:
+                print(f"{record['city']} contract not yet resolved — skipping")
 
 
-def store_data(list_of_dicts, file_name):
-    with open(file_name, "w") as f:
-        json.dump(list_of_dicts, f, indent=2, default=str)
+    print("Done!")
 
 
-def make_city_dictionary(loc: list, name: str, ensemble_percent: float,
-                          number_ensemble_members: int, event, kalshi_odds: float):
-    now = datetime.datetime.now()
-    return {
-        "date": now.date().isoformat(),
-        "time": now.isoformat(),
-        "location": loc,
-        "name": name,
-        "ensemble_percent": ensemble_percent,
-        "num_ensemble_members": number_ensemble_members,
-        "event": event,          # None = pending, True/False once verified
-        "kalshi_odds": kalshi_odds,
-        "profit": 1 - kalshi_odds,
-    }
+
+
 
 
 if __name__ == "__main__":

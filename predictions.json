@@ -1,0 +1,266 @@
+{
+  "2026-09-17_Trenton, NJ (TTN)": {
+    "date": "2026-09-17",
+    "city": "Trenton, NJ (TTN)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:24.554232",
+      "ensemble_prob": 27,
+      "market_price": 39.0,
+      "edge": 12.0,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_San Francisco, CA (SFO)": {
+    "date": "2026-09-17",
+    "city": "San Francisco, CA (SFO)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:24.977170",
+      "ensemble_prob": 57,
+      "market_price": 1.5,
+      "edge": 55.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Seattle, WA (SEA)": {
+    "date": "2026-09-17",
+    "city": "Seattle, WA (SEA)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:25.403335",
+      "ensemble_prob": 0,
+      "market_price": 0.5,
+      "edge": 0.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_San Antonio, TX (SAT)": {
+    "date": "2026-09-17",
+    "city": "San Antonio, TX (SAT)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:25.843148",
+      "ensemble_prob": 37,
+      "market_price": 4.5,
+      "edge": 32.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Phoenix, AZ (PHX)": {
+    "date": "2026-09-17",
+    "city": "Phoenix, AZ (PHX)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:26.278335",
+      "ensemble_prob": 50,
+      "market_price": 1.5,
+      "edge": 48.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Philadelphia, PA (PHL)": {
+    "date": "2026-09-17",
+    "city": "Philadelphia, PA (PHL)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:27.129110",
+      "ensemble_prob": 37,
+      "market_price": 99.5,
+      "edge": 62.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Oklahoma City, OK (OKC)": {
+    "date": "2026-09-17",
+    "city": "Oklahoma City, OK (OKC)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:27.556051",
+      "ensemble_prob": 0,
+      "market_price": 0.5,
+      "edge": 0.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_New York, NY (Central Park)": {
+    "date": "2026-09-17",
+    "city": "New York, NY (Central Park)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:27.978254",
+      "ensemble_prob": 23,
+      "market_price": 41.5,
+      "edge": 18.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_New Orleans, LA (MSY)": {
+    "date": "2026-09-17",
+    "city": "New Orleans, LA (MSY)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:28.768530",
+      "ensemble_prob": 57,
+      "market_price": 0.5,
+      "edge": 56.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Minneapolis, MN (MSP)": {
+    "date": "2026-09-17",
+    "city": "Minneapolis, MN (MSP)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:29.201378",
+      "ensemble_prob": 100,
+      "market_price": 99.5,
+      "edge": 0.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Miami, FL (MIA)": {
+    "date": "2026-09-17",
+    "city": "Miami, FL (MIA)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:29.632892",
+      "ensemble_prob": 100,
+      "market_price": 99.5,
+      "edge": 0.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Las Vegas, NV (LAS)": {
+    "date": "2026-09-17",
+    "city": "Las Vegas, NV (LAS)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:30.067257",
+      "ensemble_prob": 30,
+      "market_price": 0.5,
+      "edge": 29.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Los Angeles, CA (LAX)": {
+    "date": "2026-09-17",
+    "city": "Los Angeles, CA (LAX)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:30.492228",
+      "ensemble_prob": 70,
+      "market_price": 0.5,
+      "edge": 69.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Houston, TX (KHOU - Hobby)": {
+    "date": "2026-09-17",
+    "city": "Houston, TX (KHOU - Hobby)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:30.925088",
+      "ensemble_prob": 100,
+      "market_price": 99.5,
+      "edge": 0.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Newark, NJ (EWR)": {
+    "date": "2026-09-17",
+    "city": "Newark, NJ (EWR)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:31.353914",
+      "ensemble_prob": 37,
+      "market_price": 41.5,
+      "edge": 4.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Denver, CO (DEN)": {
+    "date": "2026-09-17",
+    "city": "Denver, CO (DEN)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:31.777545",
+      "ensemble_prob": 80,
+      "market_price": 49.0,
+      "edge": 31.0,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Washington, DC (DCA)": {
+    "date": "2026-09-17",
+    "city": "Washington, DC (DCA)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:32.197374",
+      "ensemble_prob": 100,
+      "market_price": 32.0,
+      "edge": 68.0,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Dallas, TX (DFW)": {
+    "date": "2026-09-17",
+    "city": "Dallas, TX (DFW)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:33.067230",
+      "ensemble_prob": 0,
+      "market_price": 0.5,
+      "edge": 0.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Chicago, IL (Midway)": {
+    "date": "2026-09-17",
+    "city": "Chicago, IL (Midway)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:33.501800",
+      "ensemble_prob": 100,
+      "market_price": 99.5,
+      "edge": 0.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Boston, MA (BOS)": {
+    "date": "2026-09-17",
+    "city": "Boston, MA (BOS)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:33.934845",
+      "ensemble_prob": 73,
+      "market_price": 81.0,
+      "edge": 8.0,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Austin, TX (AUS)": {
+    "date": "2026-09-17",
+    "city": "Austin, TX (AUS)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:34.370763",
+      "ensemble_prob": 3,
+      "market_price": 10.5,
+      "edge": 7.5,
+      "event": null,
+      "night": null
+    }
+  },
+  "2026-09-17_Atlanta, GA (ATL)": {
+    "date": "2026-09-17",
+    "city": "Atlanta, GA (ATL)",
+    "morning": {
+      "timestamp": "2026-09-17T14:38:34.834604",
+      "ensemble_prob": 0,
+      "market_price": 0.5,
+      "edge": 0.5,
+      "event": null,
+      "night": null
+    }
+  }
+}
